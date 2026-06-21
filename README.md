@@ -102,17 +102,13 @@ Qkart-Project/
 ./gradlew test
 ```
 
-### Run Only Sanity Tests
+### Run a Specific Group
 
-Modify `testng.xml` to include only `Sanity_test` group, then:
+Open `testng.xml` and set the desired group (`Sanity_test` or `Regression_Test`) in the `<groups>` section, then run:
 
 ```bash
 ./gradlew test
 ```
-
-### Run Only Regression Tests
-
-Modify `testng.xml` to include only `Regression_Test` group.
 
 ---
 
